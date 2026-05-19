@@ -44,6 +44,6 @@ npm run dev
 |---|---|---|
 | Phase 1 | Backend Setup (schemas, model handler) | ✅ Done |
 | Phase 2 | FastAPI Routes (predict + websocket) | ✅ Done |
-| Phase 3 | React Frontend | 🔜 Upcoming |
-| Phase 4 | Integration Testing | 🔜 Upcoming |
+| Phase 3 | React Frontend | ✅ Done|
+| Phase 4 | Integration Testing | ✅ Done |
 | Phase 5 | Mobile + Real ML Model | 🔜 Future |
