@@ -101,7 +101,7 @@ Translated Text Output
 # 📂 Project Structure
 
 ```text
-SilentCommunicationGesture/
+SilentCommunicationGestureReadUsingAI/
 │
 ├── SignPredictionBackend/
 │   ├── __pycache__/
@@ -148,7 +148,7 @@ SilentCommunicationGesture/
 
 | Layer                   | Technology               |
 | ----------------------- | ------------------------ |
-| Backend                 | Python, FastAPI, Uvicorn |
+| Backend                 |Python(3.12.10),FastAPI,Uvicorn|
 | Computer Vision         | OpenCV                   |
 | Machine Learning        | NumPy, Custom Models     |
 | Validation              | Pydantic                 |
