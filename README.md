@@ -101,25 +101,48 @@ Translated Text Output
 # 📂 Project Structure
 
 ```text
-Gesture-to-Text-Translation-System/
+SilentCommunicationGesture/
 │
-├── backend/
+├── SignPredictionBackend/
+│   ├── __pycache__/
+│   ├── .venv/
+│   ├── gesture_predict_model.h5
+│   ├── hand_landmarker.task
 │   ├── main.py
 │   ├── requirements.txt
-│   ├── routes/
-│   ├── models/
-│   └── services/
+│   └── test.ipynb
 │
-├── web-frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── vite.config.ts
-│
-└── mobile-frontend/
+└── web-frontend/
+    ├── node_modules/
+    ├── public/
+    ├── src/
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── package-lock.json
+    ├── tsconfig.app.json
+    └── ...
 ```
 
----
+## 📌 Folder Description
+
+### Backend (`SignPredictionBackend`)
+- `gesture_predict_model.h5` → Trained deep learning model for gesture prediction.
+- `hand_landmarker.task` → MediaPipe hand landmark detection model.
+- `main.py` → Main backend API file.
+- `requirements.txt` → Python dependencies.
+- `test.ipynb` → Jupyter Notebook for model testing and experimentation.
+
+### Frontend (`web-frontend`)
+- `public/` → Static assets.
+- `src/` → React application source code.
+- `index.html` → Main HTML entry point.
+- `package.json` → Project dependencies and scripts.
+- `eslint.config.js` → ESLint configuration.
+- `tsconfig.app.json` → TypeScript configuration.
+
+
 
 # 🛠️ Technology Stack
 
@@ -165,7 +188,7 @@ The translated text is displayed through the frontend interface.
 ## Backend Setup
 
 ```bash
-cd backend
+cd SignPredictionBackend
 
 uv venv
 
