@@ -1,9 +1,0 @@
-fastapi
-uvicorn[standard]
-python-multipart
-opencv-python-headless
-pydantic
-numpy
-websockets
-mediapipe
-tensorflow
