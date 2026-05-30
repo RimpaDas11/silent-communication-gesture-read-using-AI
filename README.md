@@ -101,7 +101,7 @@ Translated Text Output
 # 📂 Project Structure
 
 ```text
-SilentCommunicationGestureReadUsingAI/
+silent-communication-gesture-read-using-AI/
 │
 ├── SignPredictionBackend/
 │   ├── __pycache__/
