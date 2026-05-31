@@ -394,6 +394,6 @@ If you found this project useful:
 
 **Computer Vision • Machine Learning • FastAPI • React**
 
-Built with ❤️ by Rimpa Das
+Built with ❤️ by Rimpa Das.
 
 </div>
