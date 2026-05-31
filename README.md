@@ -187,16 +187,45 @@ The translated text is displayed through the frontend interface.
 
 ## Backend Setup
 
+### Requirements
+- Python 3.12.10
+
+### Create Virtual Environment
 ```bash
-cd SignPredictionBackend
+python -m venv .venv
+```
 
-uv venv
+### Activate Virtual Environment
 
-uv pip install -r requirements.txt
+**Windows**
+```bash
+.venv\Scripts\activate
+```
 
+**Linux / macOS**
+```bash
+source .venv/bin/activate
+```
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
+```bash
 uvicorn main:app --reload
 ```
 
+### Open in Browser
+```txt
+http://127.0.0.1:8000
+```
+
+### API Documentation
+```txt
+http://127.0.0.1:8000/docs
+```
 Backend runs on:
 
 ```text
