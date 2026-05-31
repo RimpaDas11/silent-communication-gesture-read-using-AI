@@ -1,4 +1,4 @@
-# 🤟 Gesture-to-Text Translation System
+# 🤟Gesture-to-Text Translation System
 
 <div align="center">
 
